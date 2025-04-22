@@ -111,103 +111,100 @@ h2 {
 }
 
 .fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
 
-    body {
-        background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-        background-size: 180px 180px;
-    }
+#contato {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de contato */
 
-    #contato {
-        background-image: url('img/4965007.jpg');
-        background-size: cover;
-        padding: 4rem 0;
-        /* Espaçamento interno para a seção de contato */
+}
 
-    }
+.formulario {
+    background-color: #ffffff;
+    padding: 2rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
 
-    .formulario {
-        background-color: #ffffff;
-        padding: 2rem;
-        /* Espaçamento interno dentro do formulário */
-        border-radius: 10px;
-        /* Borda arredondada para o formulário */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        /* Sombra suave para destacar o formulário */
-        font-weight: bold;
-    }
+.formulario button {
+    background-color: #CB6D43;
+    border: none;
+    font-weight: bold;
+}
 
-    .formulario button {
-        background-color: #CB6D43;
-        border: none;
-        font-weight: bold;
-    }
-
-    /* chama classe do bootstrap para modificar a cor */
-    .form-control {
-        background-color: #F1EDEF;
-    }
-
-    .menu-acessibilidade {
-        position: fixed;
-        top: 2rem;
-        right: 20px;
-        z-index: 1000;
-    }
-
-    .rotacao-botao {
-        transform: rotate(-90deg);
-        transform-origin: right center;
-    }
-
-    .opcoes-acessibilidade {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .opcoes-acessibilidade button {
-        margin-bottom: 5px;
-    }
-
-    .apresenta-lista {
-        display: none;
-    }
+/* chama classe do bootstrap para modificar a cor */
+.form-control {
+    background-color: #F1EDEF;
+}
 
 
-    /*alto contraste*/
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
 
-    .alto-contraste {
-        background-color: var(--alto-contraste-fundo);
-        color: var(--alto-contraste-texto);
-    }
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
 
-    .alto-contraste header,
-    .alto-contraste footer,
-    .alto-contraste .formulario {
-        background-color: var(--alto-contraste-fundo);
-        color: var(--alto-contraste-texto);
-    }
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
-    .alto-contraste .nav-link {
-        color: var(--alto-contraste-link);
-    }
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
 
-    .alto-contraste .botao-inicio,
-    .alto-contraste .formulario button,
-    .alto-contraste .btn-primary {
-        background-color: var(--alto-contraste-link);
-        color: var(--alto-contraste-fundo)
-    }
+.apresenta-lista {
+    display: none;
+}
 
-    .alto-contraste #tropicalia {
-        background: none;
-    }
+/*alto contraste*/
 
-    .alto-contraste #galeria {
-        background-color: var(--alto-contraste-fundo);
-    }
+.alto-contraste {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
 
-    .alto-contraste .fundo-galeria{
-        background: none;
-    }
-    
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link {
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
+}
