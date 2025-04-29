@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.toggle('alto-contraste');
     })
 });
-scrollReveal().reveal('#inicio', {delay: 500})
-scrollReveal().reveal('#galeria', {delay: 500})
-scrollReveal().reveal('#tropicália', {delay: 500})
-scrollReveal().reveal('#contato', {delay: 500})
+ScrollReveal().reveal('#inicio', {delay: 500})
+ScrollReveal().reveal('#galeria', {delay: 500})
+ScrollReveal().reveal('#tropicália', {delay: 500})
+ScrollReveal().reveal('#contato', {delay: 500})
